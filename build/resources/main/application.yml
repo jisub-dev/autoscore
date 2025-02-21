@@ -1,0 +1,13 @@
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: autoscore
+      username: root
+      password: rootpassword
+      authentication-database: admin
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
